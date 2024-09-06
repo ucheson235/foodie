@@ -1,0 +1,476 @@
+/* Basic resets */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f4f8;
+    color: #333;
+  }
+  
+  header {
+    background-color: #0066cc;
+    padding: 1rem 5rem;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+  }
+  
+  .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .burger {
+    font-size: 2rem;
+    cursor: pointer;
+    display: none;
+  }
+  
+  .nav-links {
+    display: flex;
+    list-style: none;
+  }
+  
+  .nav-links li {
+    margin-left: 2rem;
+  }
+  
+  .nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 2rem;
+  }
+
+  
+  #home,
+  .nav-links a:hover {
+    background-color: rgb(255 204 41);
+    border-radius: 50px;
+    width: 300px;
+    color: red;
+    padding: 10px 20px;
+  }
+
+  #home:hover{
+    background-color: #f0f4f8;
+    color: #333;
+  }
+
+  .logo{
+    width: 200px;
+  }
+
+  .logo img {
+    width: 100%;
+  }
+
+  .btn{
+    font-size: 1rem;
+    font-weight: 300;
+    background-color: rgb(206, 65, 60);
+    border-radius: 40px;
+    color: white;
+    padding: 15px 25px;
+    border:  black solid ;
+}
+
+.btn:hover{
+    background-color: #333;
+    border: none;
+}
+
+/* ---------------------------------- */
+  /* hero sections style  */
+
+  .hero{
+    position: relative;
+
+  }
+  .hero-img{
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    
+  }
+
+  .hero-img img{
+    width: 100%;
+  }
+
+
+
+  .hero-btn{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+
+  }
+
+  /* ------------------------------ */
+   /* steps styles  */
+
+   .main-steps{
+    padding: 1rem 5rem;
+    background-color: rgb(255 204 41);
+   
+   }
+
+   .steps{
+    display: flex;
+    justify-content: space-between;
+    padding: 5rem 1rem;
+   }
+
+   .steps h2{
+    font-size: 3rem;
+    font-weight: bold;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+   }
+   .steps h3{
+    font-size: 1.5rem;
+   
+    
+   }
+
+   /* --------------------------------- */
+   /* About us section */
+   .about{
+    padding: 1rem 5rem;
+    display: flex;
+    justify-content: space-between;
+   
+   }
+
+   .about-img{
+    width: 500px;
+   }
+
+   .about-img img{
+    width: 100%;
+   }
+
+   .about-text{
+    display: block;
+    justify-content: center;
+    align-self: center;
+   }
+
+   .about-text h1{
+    font-size: 3rem;
+    margin-bottom: 50px;
+    
+   }
+   .about-text p{
+    font-size: 1.5rem;
+    margin-bottom: 50px;
+    line-height: 1.6;
+    color: gray;
+    
+   }
+
+   /* ------------------------------ */
+   /* customer-section */
+   .customer{
+    width: 100%;
+   }
+
+   .customer img{
+    width: 100%;
+   }
+
+   /* --------------------------- */
+   /* menu section */
+   .menu{
+    padding: 1rem 5rem;
+    background-color: black;
+   }
+
+   .menu-div{
+    text-align: center;
+    margin-top: 100px;
+   }
+
+   .menu-div h1{
+    font-size: 3rem;
+    color: white;
+   }
+   .menu-div h2{
+    font-size: 1.5rem;
+    color: white;
+    margin-top: 20px;
+   }
+
+
+   .menu-card {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, auto);
+    gap: 20px;
+    padding: 20px;
+   
+  }
+
+  
+  .chop-card {
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: center;
+    padding: 16px;
+    width: 400px;
+    position: relative;
+   
+  }
+
+ 
+
+  .chop-card-img img {
+    width: 100%;
+    height: 300px;
+    border-radius: 8px;
+  }
+
+  .chop-card-text {
+    margin-top: 10px;
+  }
+  
+  .chop-card h2 {
+    font-size: 2rem;
+    margin-bottom: 8px;
+    color: brown;
+
+  }
+  
+  .chop-card h3 {
+    font-size: 1.1em;
+    color: #666;
+  }
+  
+  .card-btn {
+    background-color: rgb(255 204 41);
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-top: 10px;
+    font-size: 1rem;
+    
+  }
+  
+  .card-btn:hover {
+    background-color: #e65c00;
+    color: white;
+  }
+
+  #chop-btn1,
+  #chop-btn2,
+  #chop-btn3,
+  #chop-btn4,
+  #chop-btn5,
+  #chop-btn6{
+    position: absolute;
+    top: 60%;
+    right: 4%;
+  }
+
+  .see-more{
+    text-align: center;
+    margin-top: 30px;
+  }
+
+  /* ------------------------------------- */
+  /* footer  */
+  footer{
+    padding: 1rem 5rem;
+    background-color: #000204;
+  }
+
+  .footer-div{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .footer-div h2{
+    font-size: 2rem;
+    margin-top: 30px;
+    color: gray;
+  }
+  .footer-div h3{
+    font-size: 1rem;
+    margin-top: 30px;
+    color: gray;
+  }
+
+  .footer-div input{
+    padding: 10px;
+    font-size: 1rem;
+    width: 100%;
+    margin-top: 10px;
+    outline: none;
+    border: none;
+  }
+
+  .footer-div button{
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 50px;
+    font-size: 1rem;
+    background-color: rgb(255 204 41);
+    border: none;
+  }
+
+  .footer-div button:hover{
+    background-color: #e65c00;
+    color: white;
+
+  }
+
+  .footer-down {
+    text-align: center;
+   margin: 50px;
+   font-size: 1rem;
+   color: gray;
+  }
+
+
+
+
+  
+  
+ 
+  
+  /* Responsive navbar for smaller screens */
+  @media (max-width: 768px) {
+    .nav-links {
+      display: none;
+      flex-direction: column;
+      position: absolute;
+      background-color: #0066cc;
+      top: 125px;
+      right: 0;
+      width: 100%;
+      text-align: center;
+      z-index: 1;
+    }
+  
+    .nav-links.active {
+      display: flex;
+    }
+  
+    .nav-links li {
+      margin: 1rem 0;
+    }
+  
+    .burger {
+      display: block;
+    }
+
+    .div-btn{
+        display: none;
+    }
+
+    .hero-btn{
+        left: 40%;
+    
+      }
+
+      .steps{
+        display: block;
+        justify-content: center;
+        text-align: center;
+      }
+
+      .steps h2{
+        font-size: 2rem;
+        
+      }
+      .steps h3{
+        font-size: 1rem;
+        margin-bottom: 10px;
+        
+      }
+
+      .about{
+        display: block;
+      }
+
+      .menu-card{
+       display: block;
+       gap: 20px;
+       
+      }
+
+      .chop-card{
+        margin: 0 auto;
+        margin-bottom: 30px;
+        width: 300px;
+       
+        
+      }
+
+      
+
+      .chop-card-img img {
+        width: 100%;
+        height: 300px;
+      }
+
+      .menu{
+        padding: 0;
+        padding-top: 5px;
+      }
+
+      .chop-card h2 {
+        font-size: 1.5rem;
+      }
+      
+      .chop-card h3 {
+        font-size: 1rem;
+       
+      }
+
+        #chop-btn1,
+        #chop-btn2,
+        #chop-btn3,
+        #chop-btn4,
+        #chop-btn5,
+        #chop-btn6{
+        position: absolute;
+        top: 62%;
+        right: 5%;
+      }
+
+      .about-img{
+        width: 300px;
+        margin: 0 auto;
+       }
+    
+       .about-img img{
+        width: 100%;
+       }
+
+       .about-text h1{
+        text-align: center;
+        margin-top: 20px;
+       }
+
+       .footer-div{
+        display: block;
+       }
+
+
+
+      
+
+}

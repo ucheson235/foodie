@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foodie</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" type="image/x-icon" href="./asset/logo.png">
+</head>
+<body>
+
+    
+    <header>
+       
+        <nav class="navbar">
+          
+          <div class="logo"><img src="./asset/logo.png" alt=""></div>
+          
+          <div class="burger" onclick="toggleNav()">&#9776;</div>
+          
+          <ul class="nav-links" id="navLinks">
+           
+            <li><a href="#home" id="home">Home</a></li>
+           
+            <li><a href="#about">About Us </a></li>
+           
+            <li><a href="#Menu">Menu</a></li>
+
+            <li><a href="#Locate Us">Locate Us</a></li>
+
+           
+           
+          </ul>
+          <div class="div-btn">
+            <button class="btn">Order Online</button>
+
+          </div>
+        </nav>
+      </header>
+
+      <!-- hero section with indomin image  -->
+       <section>
+        <div class="hero">
+            <div class="hero-img">
+                <img src="./asset/hero-img.jpg" alt="">
+
+            </div>
+            <div class="hero-btn">
+                <button class="btn">Order Online</button>
+
+            </div>
+
+        </div>
+
+       </section>
+        <!-- sections 2 with different images and texts  -->
+    <section2>
+        <div class="main-steps">
+          <div class="steps">
+              <div class="steps1">
+                <img
+                  class="steps1-img"
+                  src="./asset/step1.png"
+                  alt=""
+                  width="100"
+                />
+      
+                <h2>Steps1</h2>
+                <h3>Search for your location</h3>
+              </div>
+              <div class="steps2">
+                <img
+                  class="steps2-img"
+                  src="./asset/step2.png"
+                  alt=""
+                  width="100"
+                />
+      
+                <h2>Step 2</h2>
+                <h3>Choose your meals</h3>
+              </div>
+              <div class="steps3">
+                <img
+                  class="steps3-img"
+                  src="./asset/step3.png"
+                  alt=""
+                  width="100"
+                />
+                <h2>Step 3</h2>
+                <h3>Pay Online</h3>
+              </div>
+              <div class="steps4">
+                <img
+                  class="steps4-img"
+                  src="./asset/step4.png"
+                  alt=""
+                  width="100"
+                />
+                <h2>Step 4</h2>
+                <h3>
+                  Sit back and relish the delicious meals <br />
+                  daily
+                </h3>
+              </div>
+            </div>
+        </div>
+      </section2>
+      <!-- --------------------------------------------------- -->
+       <!-- About us sections -->
+        <section>
+           <div class="about">
+            <div class="about-img">
+                <img
+                  src="./asset/choose-img.jpg"
+                  alt="" 
+                 />
+              </div>
+              <div class="about-text">
+                <h1>About Us</h1>
+                <p>
+                  Indomie Cafe is the first Noodle Bar in Nigeria which is making
+                  fusion food a <br>  big hit among many foodies! Our delicious and
+                  innovative recipes offer <br> spicy taste and visual treats for all our
+                  customers. With our world-class <br> experience, fresh ingredients,
+                  innovative recipes, affordable prices and vibrant and <br> lively
+                  interiors— Indomie is going to be your go-to place for <br> delicious
+                  food and a great time with friends and family. Get ready to taste <br>
+                  the twist offered by the iconic brand of noodles. Our appetizing
+                  dishes <br> include Yummie Rolls, Frittatas, Frizzled Eggs, Prawn Mie,
+                  refreshing drinks <br> and a lot more.
+                </p>
+                <button class="btn">Explore Menu</button>
+              </div>
+           </div>
+
+        </section>
+        <!-- -------------------------------------- -->
+         <!-- customers section -->
+          <section>
+            <div class="customer">
+                <img src="./asset/customer-img.jpg" alt="">
+
+            </div>
+
+          </section>
+
+          <!-- -------------------------------------------- -->
+           <!-- menu section  -->
+            <section>
+                <div class="menu">
+                    <div class="menu-div">
+                        <h1>FEATURED MENU</h1>
+                        <h2>The heavenly range on our select <br>menu awaits you!</h2>
+            
+                    </div>
+
+                    <div class="menu-card">
+                        <div class="chop-card">
+                            <div class="chop-card-img">
+                                <img src="./asset/rolls.jpg" alt="">
+                            </div>
+                           <div class="chop-card-text">
+                            <h2>Rolls</h2>
+                            <h3>Offering non-veg rolls with delicious and exciting  filling to keep up with your appetite.</h3>
+
+                           </div>
+                           <button id="chop-btn1" class="card-btn">order online</button>
+
+                        </div>
+                        <div class="chop-card">
+                            <div class="chop-card-img">
+                                <img src="./asset/bites.jpg" alt="">
+                            </div>
+                            <div class="chop-card-text">
+                                <h2>Crispy Chicken Bites</h2>
+                               <h3>Chicken blended with variety of spices & fried  served with authentic sauce.</h3>   
+                            </div>
+                            <button id="chop-btn2" class="card-btn">order online</button>
+
+                        </div>
+                        <div class="chop-card">
+                            <div class="chop-card-img">
+                                <img src="./asset/banana.jpg" alt="">
+
+                            </div>
+                            <div class="chop-card-text">
+                                <h2>Banana Latte</h2>
+                               <h3>Thick, creamy and heavenly, our banana latte is a  big hit among many coffee lovers.</h3>
+
+                            </div>
+                            <button id="chop-btn3" class="card-btn">order online</button>
+                        </div>
+                        <div class="chop-card">
+                            <div class="chop-card-img">
+                                <img src="./asset/chicken.jpg" alt="">
+
+                            </div>
+                            <div class="chop-card-text">
+                                <h2>Chicken Drumsticks</h2>
+                               <h3 >Offering non-veg rolls with delicious and exciting  filling to keep up with your appetite.</h3>
+
+                            </div>
+                            <button id="chop-btn4" class="card-btn">order online</button>
+
+                        </div>
+
+                        <div  class="chop-card">
+                            <div class="chop-card-img">
+                                <img src="./asset/eggs.jpg" alt="">
+
+                            </div>
+                            <div class="chop-card-text">
+                                <h2>Frizzled Eggs</h2>
+                                <h3>Delicious, crispy and frizzled eggs make up for one of the best breakfast options.</h3>
+                            </div>
+                            <button id="chop-btn5" class="card-btn">order online</button>
+
+                        </div>
+
+                        <div class="chop-card">
+                            <div class="chop-card-img">
+                                <img src="./asset/spicy.jpg" alt="">
+                            </div>
+                            <div class="chop-card-text">
+                                <h2>Szechuan Spicy Mix</h2>
+                               <h3>The irresistible blend of spicy, sweet and savory flavours will leave you wanting more!</h3>
+                            </div>
+                            <button id="chop-btn6" class="card-btn">order online</button>
+
+                        </div>
+                       
+
+                    </div>
+
+                    <div class="see-more">
+                        <button class="btn">See More</button>
+                     </div>
+
+
+                </div>
+                <footer>
+                    <div class="footer-div">
+                      <div class="footer-div-text">
+                        <h2>QUICK LINKS</h2>
+                        
+                        <h3>Home</h3>
+                        
+                        <h3>Locate Us</h3>
+                        
+                        <h3>Order Online</h3>
+              
+              
+                      </div>
+                      <div class="footer-div-input">
+                        <h2>LOCATIONS</h2>
+                        <input type="text" placeholder="IndomieCafe Surulere">
+                        
+                        <h3>Leisure Mall, Adeniran Ogunsanya Street, Surulere, Lagos</h3>
+                        
+                        <h3>Lagos</h3>
+                        
+                        <h3>08177779977</h3>
+              
+                      </div>
+                      <div class="footer-div-btn">
+                        <h2>WE ARE SOCIAL</h2>
+                        
+                        <h3>Dufil Prima Food PLC</h3>
+                        
+                        <button class="footer-btn">LEAVE US YOUR FEEDBACK</button>
+              
+                      </div>
+              
+              
+                    </div>
+
+                    <div class="footer-down">
+                        <p>@ ucheson 2024</p>
+
+                    </div>
+              
+                  </footer>
+                
+
+            </section>
+  
+     
+  
+    
+
+
+
+
+
+    <script src="./app.js"></script>
+</body>
+</html>
